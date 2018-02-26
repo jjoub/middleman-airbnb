@@ -1,0 +1,14 @@
+<div id="team">
+  <div class="team-container">
+    <h1>Team of the day !</h1>
+    <ul class="list-inline text-center">
+      <% ["astriddeboiss", "jjoub"].each do |gh_username| %>
+        <li>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+          <a href="https://github.com/#{gh_username}" target="_blank"></a>
+          <h3><i class="fa fa-github"></i><%= gh_username  %></h3>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>

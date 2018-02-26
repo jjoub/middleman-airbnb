@@ -1,0 +1,42 @@
+.banner-flat {
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+.main-info-flat {
+  display: flex;
+  padding: 20px;
+}
+
+.flat-avatar {
+  padding: 20px;
+}
+
+.flat-localisation h1 {
+    font-size: 18px;
+}
+
+.flat-localisation p {
+    font-weight: normal;
+    font-size: 14px;
+    color: #777777;
+}
+
+.header-flat {
+  background-color: white;
+}
+
+
+.header-flat form {
+    margin: 20px 0;
+    margin-right: 0;
+    background: #F4F4F4;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
